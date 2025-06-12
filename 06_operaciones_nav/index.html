@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // Creating variables
+        let a, b, suma, resta, multi, division, resid, potenc, operation;
+
+        // Request of data
+        a = parseFloat(prompt('Ingresa un número: '));
+        b = parseFloat(prompt('Ingresa otro número: '));
+        operation = prompt('Escoge la operacion: 1) suma. 2) resta. 3) multiplicacion. 4) division.');
+
+        // Add
+        suma = a + b;
+
+        // Difference
+        resta = a - b;
+
+        // Multiplicacion
+        multi = a * b;
+
+        // Division
+        division = a / b;
+
+        // Residuo
+        resid = a % b;
+
+        // Potenciacion
+        potenc = a **b;
+
+        
+        // Aplicacion de condicional para mostrar resultado:
+        if (operation == '1'){
+            document.write("Resultado de la suma: " + suma);
+            alert("Resultado: " + suma)
+
+        } else if (operation == '2'){
+            document.write("Resultado de la resta" + resta);
+
+        } else if (operation == '3') {
+            document.write("Resultado de la multiplicacion: " + multi);
+            
+        } else if (operation == '4'){
+            document.write("Resultado de la division: " + division);
+        }
+
+    </script>
+
+
+</body>
+</html>
