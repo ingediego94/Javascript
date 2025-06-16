@@ -1,6 +1,6 @@
-let contador = 1;
+let i = 1;
 
-while(contador <= 100){
-    console.log(contador + ", ");
-    contador++;
+while(i <= 10){
+    console.log(i + ", ");
+    i++;
 }

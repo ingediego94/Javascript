@@ -7,7 +7,7 @@ frutas.push('cereza');
 console.log(frutas);
 
 
-const carro = 'Toyota';
+let carro = 'Toyota';
 carro = 'Chevy';
 
 console.log(carro);
