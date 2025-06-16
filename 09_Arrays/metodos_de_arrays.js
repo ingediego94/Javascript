@@ -1,3 +1,5 @@
+
+
 // .PUSH(): Agrega uno o más elementos al final del array.
 
 let frutas = ["manzana", "pera"];

@@ -2,6 +2,7 @@
 let nombre = 'Carlos';              // Tipo string
 let edad = 57;                      //Tipo number
 let precio = 3.1416;                // Tipo number
+let bigInt = 23423482309420983209423n  //Tipo BigInt, para numeros exageradamente grandes, se pone una 'n' al final
 let esBooleano = false;             // Tipo Boolean
 let esNulo = null;                  // Null
 let lista = [99, 'Camilo', true];   // Tipo lista
@@ -13,6 +14,7 @@ let noDefinido;                     // Tipo de dato undefined
 console.log("Hola" + nombre);
 console.log(edad);
 console.log(precio);
+console.log(bigInt);
 console.log(esBooleano);
 console.log(esNulo);
 
