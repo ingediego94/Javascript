@@ -12,8 +12,8 @@ Assignment Operators
 
 Comparison Operators:
 Operator	Description
-==	        equal to
-===	        equal value and equal type
+==	        equal to, IT DOESN'T MATTER THE TYPE OF DATA
+===	        equal value and equal type, EXACTLY THE SAME ¡
 !=	        not equal
 !==	        not equal value or not equal type
 >	        greater than
