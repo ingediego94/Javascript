@@ -1,3 +1,26 @@
+// .LENGTH: Para conocer la longitud de un array
+let cursos = ['html', 'css', 'Python'];
+console.log(  cursos.length  );
+
+
+// Converting an array to a String:
+    // The JavaScript method toString() converts an array 
+    // to a string of (comma separated) array values.
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(  fruits.toString() );
+
+
+// .SORT: Sorts the array 
+const numbers = [5, 3, 56, 2, 9, 1];
+console.log(  numbers.sort()  );   // los ordena como texto, por eso sale: [1,2,3,4,5,56,9]
+
+console.log(  numbers.sort((a, b) => a - b)  );  // Los ordena de menor a mayor
+
+console.log(  numbers.sort((a, b) => b - a)  ); // Los ordena de mayor a menor
+
+
+
 
 
 // .PUSH(): Agrega uno o más elementos al final del array.
