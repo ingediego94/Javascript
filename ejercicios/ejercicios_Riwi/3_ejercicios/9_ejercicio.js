@@ -155,6 +155,8 @@ function Eight_Characters (text){
     return result;
 }
 
+
+// Global function to know if a password is secure or not.
 function Total_Validation(text){
 
     const result = Mayusc_(text) && Numbers_ && SpecialCharacters(text) && Total_Validation;
@@ -162,6 +164,9 @@ function Total_Validation(text){
     return result ? "Secure Password" : "Insecure Password";
 
 }
+
+
+// Printing data: user, password and status to know is secure or not.
 for (let i = 0; i < users.length; i++){
     console.log(` User: ${users[i].user}`);
     console.log(`Password: ${users[i].data.password}`);
