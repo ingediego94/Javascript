@@ -44,7 +44,9 @@ for (email of emails){
 console.log(`Good emails are: `);
 console.log(goodEmails);
 
+
 console.log("---------------------------");
+
 
 console.log(`Wrong emails are: `);
 console.log(wrongEmails);
