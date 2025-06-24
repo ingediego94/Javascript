@@ -13,3 +13,10 @@ const example = [value1, value2]
 En JavaScript, cuando declaras una variable usando const, estás indicando que esa variable no puede ser reasignada. Esto significa que no puedes cambiar lo que la variable apunta. Sin embargo, en el caso de arrays y objetos, la declaración const no impide que se puedan modificar los valores internos de estos, ya que solo impide la reasignación de la referencia al array u objeto, pero no lo que contiene.
 
 ---
+
+| Método | Descripcion |
+|--------|-------------|
+|push()  |Añade un elemento al final del array |
+|pop()   |Elimina el último objeto del array y lo devuelve|
+|map()   |Aplica una función a cada elemento y devuelve un nuevo array |
+|filter() | Crea un nuevo array con los elementos que cumplen una condición |

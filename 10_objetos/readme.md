@@ -35,3 +35,9 @@ Arrays are objects
 Maps are objects
 Sets are objects
 All JavaScript values, except primitives, are objects.
+
+| Método | Descripcion |
+|--------|-------------|
+|Object.keys()     |Devuelve un array con las claves del objeto       |
+|Object.values()   |Devuelve un array con los valores del objeto      |
+|Object.entries()  |Devuelve un array de pares clave-valor del objeto |
