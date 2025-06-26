@@ -2,19 +2,22 @@
 let nombre = 'Carlos';              // Tipo string
 let edad = 57;                      //Tipo number
 let precio = 3.1416;                // Tipo number
-let bigInt = 23423482309420983209423n  //Tipo BigInt, para numeros exageradamente grandes, se pone una 'n' al final
+let bigInt = 23423482309420983209423n;  //Tipo BigInt, para numeros exageradamente grandes, se pone una 'n' al final
+let bigInt_2 = BigInt(23423482309420983209423);  //Tipo BigInt, para numeros exageradamente. Esta es otra forma
 let esBooleano = false;             // Tipo Boolean
 let esNulo = null;                  // Null
 let lista = [99, 'Camilo', true];   // Tipo lista
 let producto = {tipo: 'Pantalon', cantidad: 27};    //Tipo objeto
 let fecha = new Date("1994-03-04");                 // Tipo objeto
 let noDefinido;                     // Tipo de dato undefined
+let mySymbol = Symbol("identificador");     // Funciona como un tipo de identificador único
 
 
 console.log("Hola" + nombre);
 console.log(edad);
 console.log(precio);
 console.log(bigInt);
+console.log(bigInt_2);
 console.log(esBooleano);
 console.log(esNulo);
 
@@ -27,6 +30,8 @@ console.log(producto);
 console.log(producto.cantidad);     //Accede al valor de la clave 'cantidad'
 
 console.log(typeof noDefinido);     //a variable without a value, has the value undefined. The type is also undefined.
+console.log(mySymbol);
+
 
 
 // JavaScript Types are Dynamic
