@@ -1,29 +1,35 @@
+// MAPS
+// Se basan en clave : valor. no puede haber repetidos en clave, pero si en valor
 
-const array = [1,2,3];
-console.log(array);
+// Declaracion de un nuevo mapa
+let myMap = new Map();
 
-array[3]= 4;
-console.log(array);
+// Incialización del mapa
+myMap = new Map([
+    ["name" , "Diego"],
+    ["email" , "dieego14a@gmail.com"],
+    ["age" , 29]
+]);
 
-array.push(5);
-console.log(array);
-
-array.unshift(-2, -1, 0);
-console.log(array);
-
-let numero = array.pop();
-console.log(array);
-console.log(numero);
-
-let numero2 = array.shift();
-console.log(numero2);
-
-console.log(array.length);
-
-array.unshift(23, true, "diego", 34.5, false);
-console.log(array);
+console.log( myMap );
 
 
-array.splice(3,4, "FOUR LOKO");
-console.log(array);
+// Metodos y propiedades
+
+// set
+    // agregar un solo par clave => valor
+myMap.set("alias" , "Apu");
+console.log(myMap);
+
+    // agregar varios pares clave => valor
+myMap.set(
+    ("genero" , "hombre"), 
+    ("carro" , "Toyota")
+);
+
+console.log(myMap);
+
+    // actualizar un el valor relacionado a una clave
+myMap.set("carro", "Ferrari");
+console.log(myMap);
 
