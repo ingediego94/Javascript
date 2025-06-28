@@ -1,2 +1,2 @@
-
-    ["email" , "dieego14a@gmail.com"],
+myMap.clear();
+// console.log(myMap);
