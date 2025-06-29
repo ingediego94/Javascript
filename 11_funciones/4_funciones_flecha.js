@@ -35,5 +35,11 @@ console.log(sum(1, 2, 3, 4, 5));
 // // Función flecha equivalente
 // const suma = (a, b) => a + b;
 
+// ------------------------------------------------
+console.log(" ---------------------------------------");
+
+
+const saludo = (name) => console.log(`Hola, ${name}`);
+saludo('Diego');
 
 

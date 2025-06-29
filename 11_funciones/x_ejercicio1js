@@ -1,0 +1,7 @@
+// 1. Crea una funcion que reciba dos numeros y devuelve la suma.
+function Suma(a,b){
+    let sumar = a + b;
+    return sumar;
+}
+
+console.log( Suma(3,5) );

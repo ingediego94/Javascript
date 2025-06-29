@@ -14,3 +14,13 @@ const greet = function(name = 'Diego'){
 };
 
 console.log(greet());
+
+
+// _------------------------------------------------
+
+const anonima = function(empresa){
+    console.log(`Bienvenida comitiva de ${empresa}`);
+    
+}
+
+anonima("Coca Cola");
