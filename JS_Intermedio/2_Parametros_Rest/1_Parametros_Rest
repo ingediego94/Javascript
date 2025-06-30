@@ -1,0 +1,28 @@
+
+// Parametros Rest:
+// es indicarle a una funcion que va recibir n cantidad de parámetros, como puede 
+// ser 1 solo, pueden ser 100. Importante conocer que estos parámetros se 
+// terminarán tratando como un array [], LO EMPAQUETA EN UN ARRAY.
+// El operador de Spread funciona al contrario, desempaqueta.
+
+function mostrarNumeros (...numeros){
+    console.log(numeros);
+}
+
+mostrarNumeros(1,2);        // Tenemos un array de 2.
+mostrarNumeros(23,4,2,4,65,2,1,4,62);       // Tenemos un array de 9.
+mostrarNumeros([1,65,2]);       // Tenemos un array de 3, dentro de otro array.
+
+console.log("----------------");
+
+
+function suma (...numeros){
+    let resultado = 0;
+    for(let numero of numeros){
+        resultado += numero;
+    };
+    return resultado;
+}
+
+console.log( suma(1,2) );                       // Resultado = 3
+console.log( suma(23,4,2,4,65,2,1,4,62) );     // Resultado = 167
