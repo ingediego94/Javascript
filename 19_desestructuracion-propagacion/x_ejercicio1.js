@@ -66,4 +66,53 @@ console.log( school );
 console.log( masterDegree );
 
 
+// PROPAGACION
+
+
+console.log( "-----------" );
+
+// 6. Usa propagacion para combinar dos arrays en uno nuevo
+
+const arreglo_1 = ['carlos', 'maria', 'jose'];
+const arreglo_2 = [23, 18, 29];
+
+const arregloCombinado = [...arreglo_1, ...arreglo_2];
+console.log( arregloCombinado );
+
+
+console.log( "-----------" );
+
+
+// 7. Usa propagacion para crear una copia de un array.
+const estudiantes = [...arreglo_1];
+console.log( estudiantes );
+
+console.log( "-----------" );
+
+
+// 8. Usa propagacion para combinar dos objetos en uno nuevo
+const objetoCombinado = {...usuario, ...obj};
+console.log( objetoCombinado );
+
+console.log( "-----------" );
+
+// 9. Usa propagacion para crear una copia de un objeto.
+const buenJuego = { ...obj };
+console.log( buenJuego );
+
+console.log( "-----------" );
+
+// 10.Combina desestructuracion y propagacion
+const goodGame = {...obj};
+
+let = { juego : game_x, anno : year_x } = goodGame;
+console.log( `The best game of ${year_x} is ${game_x}` );
+
+
+
+
+
+
+
+
 
