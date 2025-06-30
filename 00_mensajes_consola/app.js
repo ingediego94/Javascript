@@ -18,6 +18,8 @@ console.error(mensaje2);
 
 console.error("This is an error message.");
 
+console.error("Error to conect database: ", new Error("Conexion fallida."));
+
 
 
 // CONSOLE.WARM():
@@ -26,9 +28,9 @@ console.error("This is an error message.");
 //      En los navegadores suele ser destacados con color amarillo.
 let mensaje3 = 'Este es un mesaje de advertencia.';
 
-console.log(mensaje3);
+console.warn(mensaje3);
 
-console.log("This is a warning message.");
+console.warn("This is a warning message.");
 
 
 
@@ -40,6 +42,22 @@ let mensaje4 = 'Este es un mensaje informativo en la página.'
 console.info(mensaje4);
 
 console.info("This is an info message.");
+
+
+// CONSOLE.TABLE()
+let data = [
+    ['Diego',29],
+    ['Sara', 22]
+];
+
+console.table(data);
+
+let data_2 = [
+    {nombre: 'Diego', edad: 29},
+    {nombre:'Sara', edad: 22}
+];
+
+console.table(data_2);
 
 
 
@@ -69,3 +87,8 @@ console.groupEnd();
 console.time('time');
 console.info("testing");
 console.timeEnd('time');
+
+
+// ASSERT
+let edad = 17;
+console.assert(edad >= 18, "El usuario debe ser mayor de edad.")
