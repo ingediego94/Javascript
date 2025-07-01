@@ -1,10 +1,16 @@
 {
   "libros": [
     {
-      "id": "2",
+      "id": "1",
       "titulo": "Narnia y El Principe Caspian",
       "autor": "C.S. Lewis",
       "anio": "1951"
+    },
+    {
+      "id": "2",
+      "titulo": "Harry Potter y la piedra filosofal",
+      "autor": "JK Rowling",
+      "anio": "1999"
     }
   ]
 }

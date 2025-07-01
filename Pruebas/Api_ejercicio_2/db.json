@@ -1,0 +1,58 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Carlos",
+      "email": "carlosj18@gmail.com",
+      "edad": 18
+    },
+    {
+      "id": "2",
+      "nombre": "Lucía",
+      "email": "lucia.martinez25@hotmail.com",
+      "edad": 25
+    },
+    {
+      "id": "3",
+      "nombre": "Andrés",
+      "email": "andres_23@gmail.com",
+      "edad": 23
+    },
+    {
+      "id": "4",
+      "nombre": "Mariana",
+      "email": "mariana.rios89@yahoo.com",
+      "edad": 31
+    },
+    {
+      "id": "5",
+      "nombre": "Javier Cruz",
+      "email": "javier.cruZZ77@gmail.com",
+      "edad": 29
+    },
+    {
+      "id": "6",
+      "nombre": "Valentina",
+      "email": "valentina.gomez12@gmail.com",
+      "edad": 22
+    },
+    {
+      "id": "7",
+      "nombre": "Mateo",
+      "email": "mateo.lara34@outlook.com",
+      "edad": 34
+    },
+    {
+      "id": "8",
+      "nombre": "Sofía",
+      "email": "sofia.reyes21@gmail.com",
+      "edad": 21
+    },
+    {
+      "id": "9",
+      "nombre": "Daniel",
+      "email": "daniel.moreno56@gmail.com",
+      "edad": 28
+    }
+  ]
+}
