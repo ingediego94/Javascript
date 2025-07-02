@@ -17,18 +17,22 @@ const usuarios = [
       nombre: "Andrés",
       email: "andres_23@gmail.com",
       edad: 23
-    },
-    {
-      id: "4",
-      nombre: "Mariana",
-      email: "mariana.rios89@yahoo.com",
-      edad: 31
-    } 
+    }
 ];
 
 
-const getUsuarios = () => {
-    return usuarios;
+const getData = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve (usuarios);
+    } , 1500);
+  });
+}
+getData().then((usuarios) => 
+{
+  for (usuario of usuarios){
+    console.log(usuario["nombre"]);
+  }
 }
 
-console.log( getUsuarios() );
+);
