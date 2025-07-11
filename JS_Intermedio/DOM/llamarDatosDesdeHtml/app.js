@@ -2,6 +2,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const boton = document.getElementById('btnCapturar');
     const input = document.getElementById('miInput');  // Capturamos el campo de entrada
+    const titulo = document.getElementById('tituloPrincipal');
+
 
     // Asignamos un evento 'click' al botón
     boton.addEventListener('click', () => {
@@ -12,4 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
         let miVariable = valorInput;  
         console.log('Variable con valor capturado:', miVariable);
     });
+
+    // Obtenemos el texto de h1
+    const textoTitulo = titulo.textContent;
+    console.log(titulo);
+
 });
+
+
+
+
+
